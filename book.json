@@ -5,7 +5,7 @@
     "disqus": {
       "shortName": "leyou"
     },"anchor-navigation-ex":{
-		"showLevel": true,
+		"showLevel": false,
     "associatedWithSummary": false,
     "printLog": false,
     "multipleH1": false,
