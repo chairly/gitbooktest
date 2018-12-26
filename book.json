@@ -1,9 +1,12 @@
 { "language" : "zh-hans",
   "plugins": [
-  "disqus@0.1.0","anchor-navigation-ex"],
+  "disqus@0.1.0","anchor-navigation-ex","-lunr", "-search", "search-pro"],
   "pluginsConfig": {
     "disqus": {
       "shortName": "leyou"
+    },"search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["Gitbook Use"]
     },"anchor-navigation-ex":{
 		"showLevel": false,
     "associatedWithSummary": false,
